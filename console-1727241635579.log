@@ -1,0 +1,74 @@
+console.log("Hello World");
+VM295:1 Hello World
+undefined
+alert("Hello World");
+undefined
+//Dynamically Typed 
+undefined
+var a = 10;
+undefined
+a  = "Yash";
+'Yash'
+a;
+'Yash'
+console.log(a);
+VM565:1 Yash
+undefined
+//DataTypes In Js 
+undefined
+2
+2
+//Value Type / Primary DataTypes
+undefined
+var a = 10;
+undefined
+typeof a;
+'number'
+a = "Yash"
+'Yash'
+typeof a;
+'string'
+a = true;
+true
+typeof a;
+'boolean'
+ a= 10.4;
+10.4
+typeof a;
+'number'
+a = 'Y';
+'Y'
+typeof a;
+'string'
+//undefined
+undefined
+var h;
+undefined
+h;
+undefined
+typeof h;
+'undefined'
+//Null
+undefined
+a = null;
+null
+//Bigint 
+undefined
+a = 123333333333333333333333333;
+1.2333333333333334e+26
+a = 123333333333333333333333333n;
+123333333333333333333333333n
+typeof a;
+'bigint'
+typeof null;
+'object'
+//Symbol
+undefined
+var g = Symbol("Yash);
+VM1350:1 Uncaught SyntaxError: Invalid or unexpected token
+var g = Symbol("Yash");
+undefined
+g;
+Symbol(Yash)
+typeof g;
+'symbol'
